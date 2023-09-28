@@ -1,0 +1,4 @@
+bs4
+cfscrape
+requests
+urllib3<2

@@ -1,0 +1,24 @@
+[project]
+name = "PyLectorManga"
+version = "0.0.1"
+authors = [
+  { name="Francisco Griman", email="grihardware@gmail.com" },
+]
+description = "pylectormanga es una biblioteca que te permite buscar manga disponible a través de https://lectormanga.com/. Y podrás acceder a su información."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = [
+    "Manga", "Lector Manga", "PyLectorManga"
+]
+dependencies = [
+      'bs4', 'cfscrape', 'requests', 'urllib3<2'
+      ]
+
+[project.urls]
+"Homepage" = "https://github.com/fcoagz/pylectormanga"
+"Bug Tracker" = "https://github.com/fcoagz/pylectormanga/issues"

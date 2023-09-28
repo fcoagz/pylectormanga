@@ -1,0 +1,1 @@
+LECTORMANGA = "https://lectormanga.com/library?title="
